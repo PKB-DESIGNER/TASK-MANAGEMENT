@@ -1,0 +1,213 @@
+*{
+    /* box-sizing: border-box; */
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../image/5072609.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    /* min-width: 100px; */
+    /* min-height: 100vh; */
+    padding: 20px;
+    /* position: absolute; */
+    }
+
+.loginpageS{
+    display: flex;
+    justify-content: center;
+    /* gap: 10px; */
+    position: relative;
+ }
+
+
+.containerS{
+
+   display: flex;
+   /* display: inline; */
+   width: 120px;
+   min-width: 500px;
+   border: 20px;
+   background-color: rgb(255, 255, 255);
+   /* overflow: hidden; */
+   border-radius: 0px 20px 20px 0px;
+   /* background-image: scr="../5072609.jpg"; */
+   padding: 10px;
+   padding-bottom: 0px;
+   justify-content: start;
+   position:relative;
+    }
+.container2S{
+display: flex;
+display: inline;
+width: 120px;
+min-width: 500px;
+border: 20px;
+background-color: white;
+/* overflow: hidden; */
+border-radius: 20px 0px 0px 20px;
+padding: 20px;
+padding-bottom: 0px;
+/* gap: 35px; */
+justify-content: start;
+}
+
+
+.formS{
+    display: grid;
+    /* position: relative; */
+    /* height: 200px; */
+    /* padding: 20px; */
+    margin-top: 50px;
+    width: 100%;
+    /* display:flex; */
+    /* border: 1px solid black; */
+    /* overflow: hidden; */
+    /* background: transparent; */
+    /* justify-content: space-between; */
+    /* z-index:auto; */
+    /* position: absolute; */
+}
+
+#imgS{
+    /* margin-top: 50px; */
+    width: 100%;
+    /* margin-left: 0 auto ; */
+    /* border: 2px solid black; */
+    }
+
+.formeS{
+    display: none;
+    /* position: relative;
+    /* height: 200px; */
+    /* padding: 20px; */
+    margin: 10px;
+    width: 100%; */
+    }
+
+
+    
+form .form_contentS{
+        margin-top: 10px;
+        display: grid;
+        padding: 10px;
+        /* margin: 8px; */
+    }
+    
+    
+.headerS{
+        padding: 0px;
+        margin: 0px 0px -10px 20px;
+        /* font-size: 15px; */
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: rgba(33, 148, 58 );
+        font-weight: 600;
+        padding: 0px;
+    }
+    input{
+        padding: 8px;
+        border-radius: 4px;
+        border: 1px solid #aeaeae;
+        background: transparent;
+        font-size: 17px;
+        margin-bottom: -20px;
+        }
+.inputS{
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #aeaeae
+}
+.buttonS{
+    padding: 10px 0px -15px 150px;
+    margin: -20px 55px 55px 10px;
+    /* box-shadow: none; */
+    border: none;
+    background-color:rgba(33, 148, 58 );;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    font-size: 100%;
+  
+}
+
+
+
+
+
+.pas_erreurS{
+    /* font-size: 2px; */
+    visibility: hidden;
+}
+
+.erreurS{
+    /* font-size: 12px; */
+    margin-top: 20px;
+    color: red;
+    visibility: visible;
+}
+.bonS{
+    color: green;
+}
+
+.form_bgS{
+    border: 1px solid red;
+}
+.form_hiddenS{
+    visibility: hidden;
+}
+
+/* .btn{
+    background-color: green;
+    box-sizing: border-box;
+    font-weight: 500;
+    color: black;
+    margin: 10px 0 10px 0;
+} */
+
+#inscripS{
+    display: flex;
+    justify-content: left;
+   margin: -50px 0 0 5px;
+   padding: 0px 0px 0px 0px;
+   cursor: pointer;
+
+}
+
+#voirPassS{
+    display: flex;
+    justify-content: left;
+   margin: 20px 0 10px 10px;
+   /* padding: -0px 0px 0px 0px; */
+}
+
+#afMotPassS{
+    text-decoration: none;
+    text-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 12px;
+}
+
+#h0S{
+    /* font-size:x-large; */
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman',;
+    /* font-style: italic; */
+}
+
+
+/* GESTION D'AFFICHARGE */
+
+
+
+.gap{
+    gap: 10px;
+    margin-right: 10px;
+
+}

@@ -1,0 +1,511 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../../image/5072609.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    display: flex;
+    height: 100%;
+    height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    width: 70vh;
+    width: 70%;
+    padding-right: 100px;
+    }
+    .main{
+        margin-top: 50px;
+        height: 100%;
+        height: 60vh;
+    }
+    
+.date{
+
+    position: relative;
+}
+
+.welcome{
+    display: flex;
+    justify-content: center;
+    /* align-items:end; */
+    /* margin: 0px 0px 0px 950px; */
+    /* padding: 0px 0px 0px 0px; */
+    color: #f9f9f9;
+    position: relative;
+    margin-top: -25px;
+    margin-bottom: 10px;
+}
+
+.entete{
+    width: 100%;
+    position: absolute;
+    margin: 0;
+    padding: 0px;
+    height: 100%;
+    height: 90vh;
+}
+
+.ente{
+    display: flex;
+    /* display: inline; */
+    justify-content: space-between;
+    padding: 0px;
+    height: 50px;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 50px;
+    margin-top: 10px auto;
+}
+
+label.logo{
+color: white;
+/* font-size:16px; */
+/* line-height: 00px; */
+font-weight: bold;
+padding: 0 0 0 10px;
+position: relative;
+}
+#rech{
+    padding: 6px;
+    padding-right: 20px;
+    border-radius: 4px;
+    border: 1px solid #ffffff4d;
+    background: transparent;
+    font-size: 17px;
+    color: #f0f4f7;
+    width: 500PX;
+}
+.Search{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+ .display{
+    display: flex;
+    gap: 20px;
+}
+
+
+.onglet{
+    width: 20%;
+    background-color: #021e5ace;
+    /* margin-top: 113px; */
+    margin-top: 20px;
+    position: relative;
+    height: 100%;
+    height: 74vh;
+    border-radius: 0 20px 20px 0;    
+}
+
+.Profile{
+    margin: -70px 30px 20px 20px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#photosCardre{
+    height: 100px;
+    width: 100px;
+    background: #ffffff;
+    border-radius: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#photoIMG{
+    /* font-size: 20px; */
+    position: relative;
+    /* color: #00691a; */
+   width: 160%;
+   overflow: hidden;
+   padding-top: 10px;
+   padding-right: 60px;
+}
+  
+.ong{
+    line-height: 50px;
+     display: flex;
+    flex-direction: column; 
+    /* font-size: 20px; */
+    background-size: 2px;
+    position: relative;
+    /* margin: -23px; */
+    padding: 0px 0px 0px 0px;
+    margin: 0px 10px 0px 20px; 
+}
+
+
+.p{
+    font-size: 20px;
+    /* display: inline-block; */
+    padding: 0px 0px 0px 40px;
+    margin: 0px 0px 0px 0px ;
+    border-radius: 10px;
+    color: white;
+}
+.deconnexion{
+    margin-top: 130px;
+}
+
+p .p, .p:hover{
+    background: rgba(255, 255, 255, 0.144);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+.divmain2{
+display: flex;
+background-color: rgba(255, 255, 255, 0.842);
+padding:20px;
+border-style: solid;
+/* border-color:#f0f4f7; */
+border-radius: 3px;
+gap:10px;
+/* width:%; */
+margin-right:10px;
+margin-left:20px;
+border: none;
+position: relative;
+align-items: center;
+justify-content: cente;
+}
+
+
+.divhist2{
+    padding: 5px;
+    border: 2px solid #6969697a;
+    /* height: 25%; */
+    /* position: relative; */
+    position: relative;
+    width: 100%;
+    border-radius: 0  10px 0 10PX;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+
+ .divStatMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+ }
+ .divStat{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    border: 2px solid #6969697a;
+ 
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    overflow: hidden;
+ }
+
+.encoursListe{
+    height:500px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 0  0px 10px 10PX;
+    display: grid;
+    grid-row:span;
+    justify-content: center;
+    gap: 20px;
+} 
+
+
+.all{
+    /* background-color: rgb(2, 36, 110); */
+
+    margin-top: -10px;
+    padding-top:15px;
+    height: 100%;
+    height: 12vh;
+    position: relative;
+}
+
+
+.unview{
+    display: none;
+    scale: 0;
+    transition: 1s;
+}
+.active{
+    background: #ffffff;
+    color: rgb(1, 41, 65);
+    font-weight: 600;
+    
+}
+
+
+/* TACHES NOUVELLE PROPRIETE */
+
+.divmainTaches{
+    /* display: flex; */
+    /* justify-content: center; */
+background-color: rgba(255, 255, 255, 0.842);
+padding: 20px;/
+border-style: solid;
+/* border-color:#f0f4f7; */
+border-radius: 3px;
+gap:10px;
+/* width:%; */
+margin-right:10px;
+margin-left:20px;
+border: none;
+/* position: relative; */
+height: 80vh;
+/* position: relative; */
+overflow-y: hidden;
+}
+.Tableaux{
+    width: 100%;
+    width: 100vh;
+    
+}
+
+#AjoutTask{
+    padding: 10px ;
+    color:white;
+    border-radius: 20px;
+    border: none;
+    background-color: green;
+    display: flex;
+    justify-items: end;
+    font-size: 10px;
+    opacity: 70%;
+}
+#AjoutTask:hover{
+    opacity: 100%;
+    transition: 1s;
+    background-color: rgb(1, 49, 104);
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 13px;
+}
+
+
+
+
+table {
+    border-collapse: collapse; /* Permet de fusionner les bordures des cellules */
+    table-layout: auto; 
+    width: 100%;
+    height: 10vh;
+    padding-top: -1px;
+    text-align: center;
+  
+}
+
+
+ th, td {
+    border: none; /* Supprime les bordures de la table, des en-têtes et des cellules */
+    padding: 5px;
+    margin-left: 10px;
+    /* text-align: left; */
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+ th, tr{
+    
+    border: 1px solid rgba(32, 87, 109, 0.048); 
+
+}
+thead tr {
+    position: sticky; /* Maintient l'en-tête en place */
+    top: 0px; 
+    z-index: 1;
+    
+    /* box-shadow: 0 2px 0px 0 rgba(0, 92, 31, 0.151); */
+    color: rgb(11, 59, 131);
+
+    background-color:rgb(42, 123, 155); 
+    border-radius: 10PX 10PX ;
+    padding-top: -1px;
+    text-transform: uppercase;
+}
+tr:nth-child(odd){
+    background-color: #ffffff77;
+    /* color: #f0f4f7; */
+}
+
+table tr:hover{
+    background-color: #ffffff;
+    border-radius: 15px;
+    color: rgb(11, 59, 131);
+}
+
+
+/* Barre de defillement */
+.defillement{
+    width: 100%; /* Largeur de la zone de défilement */
+    height: 70vh; /* Hauteur de la zone de défilement */
+    /* border: 1px solid #ccccccbd; Bordure autour de la zone */
+    /* padding: 10px; */
+    overflow-y: scroll; /* Ajoute une barre de défilement verticale */
+    overflow-x: hidden; /*Cache la barre de défilement horizontale
+    /* padding-top: 10px; */
+    padding-top: px;
+    /* padding-bottom: 20px; */
+    
+    overflow-x: scroll;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* STYLES FORMULAIRE AJOUTE DES TACHES  */
+
+
+.description{
+    padding: 15px;
+
+    /* display: flex; */
+    /* justify-content: center; */
+    align-items: center;
+    width: 80vh;
+    /* width: 100%; */
+    height: 100vh;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.938);
+    border-radius: 20px;
+}
+
+
+.input-form{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color:  #025a06;
+    font-size: 20px;
+    margin-top: -20px;
+    gap: 10px;
+    
+}
+.input-field{
+    display: grid;
+    justify-content: left;
+}
+.titre{
+    width:500px;
+    height: 40px;
+    padding: 0px 10px 0px 10px;
+    /* margin-bottom: 10px; */
+    border-radius: 3px;
+    border: 1px solid rgba(4, 27, 70, 0.13);
+    font-size: 20px;
+}
+.alig{
+    /* display: flex; */
+    /* margin-top: 40px; */
+}
+.retour{
+    color: rgb(255, 255, 255);
+    padding-top: -0px;
+    border: none;
+    size: 49px;
+    /* color: #d10101; */
+    height: 30px;
+    width: 8dvh;
+    font-size: 10px;
+    box-shadow: 10px;
+    border-radius: 10px;
+    background-color: #c4c9c5;
+
+}
+.radio{
+    padding-right: 30px;
+    margin-bottom:30px;
+}
+.radios{
+    /* margin-left: -180px; */
+    margin-bottom: -30px;
+    /* margin-top: -20px; */
+}
+.button{
+    border: none;
+    size: 49px;
+    /* color: #d10101; */
+    height: 40px;
+    width: 13dvh;
+    font-size: 15px;
+    box-shadow: 10px;
+    border-radius: 10px;
+    background-color: #00a426;
+    margin:5px 5px;
+    margin-left: 25px;
+
+}
+.bnt{
+    color: #ffffff;
+}
+.button, .bnt:hover{
+    color: #ffffff;
+    size:90px;
+}
+.button:hover{
+    transition: 0.9s;
+    background-color: #054f6e;
+    border-radius: 0px;
+
+}
+.retour:hover{
+    transition: 0.9s;
+    background-color: #ff0404;
+    border-radius: 0px;
+}
+
+.fermer{
+    display: none;
+   
+}
+
+
+
+/*  formulaire de presentation moditication */
+.MiseEnForme{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+
+.FullTextAuto{
+    white-space: nowrap;
+}

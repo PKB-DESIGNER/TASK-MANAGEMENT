@@ -103,8 +103,13 @@ input[1].value = "";
 // small2.classList.replace("erreur", "pas_erreur")
 
 // }
-
-
-
 }
 
+
+function connexion(){
+    let connexion = document.getElementById("connexion")
+    let loginpage = document.getElementById("loginpage")
+    let loginpageS = document.getElementById("loginpageS")
+    loginpage.classList.remove("unview")
+    loginpageS.classList.add("unview")
+}

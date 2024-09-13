@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login/login.css">
+    <link rel="stylesheet" href="dashbord/defaut dashbord.css">
+    <link rel="stylesheet" href="login/iNSCRIP.CSS">
+    <script src="login/login.js" defer></script>
+
+    <title>Document</title>
+</head>
+<body>
+  
+
+
+    <!-- DEBUT LOGIN PAGE -->
+    <div class="loginpage unview" id="loginpage" >
+        
+        <div class="container">
+            <form action="" id="form" class="form">
+                   <div class="header">
+                      <h1 id="h0">connexion</h1>
+                    </div>
+                    <div class="form_content">
+                       <input type="text" id="username" placeholder="user name" class="ok">
+                       <small id="small" class="pas_erreur">Correcte</small>
+                    </div>
+                    <div class="form_content">
+                       <input type="password" id="password" placeholder="mot de pass">
+                       <small id="small2" class="pas_erreur">Correcte</small>
+                       <p id="voirPass" >le mot de pass<a href="" id="afMotPass">afficher </a></p>
+                    </div>
+                 
+                        <!-- <input type="submit" value="inscription" > -->
+                    <button class="button" type="submit"  value="inscription">se connecter</button> <br>
+                    <p id="inscrip">pas de compte? <a href="" id="afMotPass">s'inccrire</a></p>
+            </form>
+             <!-- <input type="submit" value="OpenForm" id="btn" class="" > -->
+         </div>
+     
+         <dir class="container2" >
+             <img id="img" src="image/green-pencil-with-positive-questionnaire.jpg" alt="">
+         </dir>
+    </div>
+         <!-- FIN LOGIN PAGE --> 
+     
+
+    <!-- DEBUT SIGN UP PAGE -->
+    <div class="loginpageS" code="S" id="loginpageS">
+        <dir class="container2S" >
+             <img id="imgS" src="image/green-pencil-with-positive-questionnaire.jpg" alt="">
+        </dir>
+        <div class="containerS">
+            <form action="" id="formS" class="formS">
+                    <div class="headerS">
+                      <h1 id="h0S">Inscription</h1>
+                    </div>
+                   
+                    <div class="form_contentS">
+                        <input type="text" placeholder="Enter votre nom(s)" required>
+                        <box-icon name='user'></box-icon>
+                    </div>
+                    <div class="form_contentS">
+                        <input type="text" placeholder="Enter votre prenom(s)" required>
+                        <box-icon name='user'></box-icon>
+                    </div>
+                    <div class="form_contentS">
+                        <input type="text" placeholder="Enter votre nom d'utilisateur" required>
+                        <box-icon name='user'></box-icon>
+                    </div>
+                    <div class="form_contentS">
+                        <input type="text" placeholder="Enter votre adress mail" required>
+                        <box-icon name='user'></box-icon>
+                    </div>
+        
+                    <div class="form_contentS">
+                        <input type="password" placeholder="Enter votre mot de pass" name="" id="" required>
+                        <i class='bx bxs-lock-alt' ></i>
+                    </div>
+                    <div class="form_contentS">
+                        <input type="password" placeholder="Confirmer votre mot de pass" name="" id="" required>
+                        <i class='bx bxs-lock-alt' ></i>
+                    </div>
+
+                    <div class="form_contentS">
+                        <label for="" ><input type="checkbox" class="Se gap" >J'accepte toutes les Conditions</label>
+                    
+                    </div>
+
+                        <!-- <input type="submit" value="inscription" > -->
+                    <button class="buttonS form_contentS" type="submit"  value="inscription">se connecter</button> <br>
+                    <p id="inscripS" onclick=connexion()>Déjà un compte?  connexion</a></p>
+            </form>
+             <!-- <input type="submit" value="OpenForm" id="btn" class="" > -->
+         </div>
+     
+    </div>
+         <!-- FIN SIGN UP PAGE -->
+    
+</body>
+</html>
